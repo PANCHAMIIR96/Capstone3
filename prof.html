@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide@latest/dist/css/lucide.min.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <a href="#" class="back-arrow">
+        <i class="lucide lucide-arrow-left"></i>
+      </a>
+      <i class="lucide lucide-refresh-cw refresh"></i>
+    </nav>
+
+    <div class="signup-card">
+      <h1>Profile</h1>
+      <div class="profile-picture">
+        <div class="avatar">👤</div>
+      </div>
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" value="John Doe" readonly>
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" value="john.doe@example.com" readonly>
+      </div>
+      <div class="stats">
+        <h3>Face Recognition Stats</h3>
+        <p>Total Scans: <strong>12</strong></p>
+      </div>
+      <button class="signup-btn">
+        <i class="lucide lucide-log-out"></i> Logout
+      </button>
+    </div>
+  </div>
+</body>
+</html>
